@@ -1,10 +1,10 @@
 # _*Natallia Zotkina*_
 ### [GitHub](https://github.com/Natallia-Zotkina)/[Linkedin](https://www.linkedin.com/feed/)
 ## Contacts:
-* mobile phone number -_+375298821123_
-* email- nata8821123@gmail.com
-* discord- Natallia-Zotkina(@natali)
-* Skype - Natallia Zotkina
+* **mobile phone number** -_+375298821123_
+* **email**- nata8821123@gmail.com
+* **discord**- Natallia-Zotkina(@natali)
+* **Skype** - Natallia Zotkina
 ## Personal information
 I want to become a front-end developer.
 I have no work experience yet, but I am a very purposeful person. I like to ckreate something new and find a non-standart approach to solving problems.
