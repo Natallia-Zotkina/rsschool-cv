@@ -8,38 +8,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav></nav> 
-        <h1>Natallia Zotkina</h1>
-    <img src="изображение_viber_2021-07-23_23-25-15-060.jpg" alt="photo" width="220">
-    <nav>
-        <ul>
-            <li>
-                 <a href="https://github.com/Natallia-Zotkina">GitHub</a>
-            </li>
-            <li>
-                 <a href="https://www.linkedin.com/feed/">Linkedin</a>
-            </li>
-        </ul>
-    </nav>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__top">
+                    <nav class="nav">
+                        <ul class="nav-list">
+                          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                          <li class="nav-item"><a href="#study projects" class="nav-link">Study projects</a></li>
+                          <li class="nav-item"><a href="#work experience" class="nav-link">Work experience</a></li>
+                          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                        </ul>
+                      </nav>
+                </div>
+                <div class="header__content">
+                    <h1>Natallia Zotkina</h1>
+                    <img class="logo" src="./assets/img/изображение_viber_2021-07-23_23-25-15-060.jpg" alt="photo" width="130">
+                </div>
+            </div>
+        </div>
     </header>
     <main>
         <section>
-            <h2>Contacts:</h2> 
+            <h2 id="contacts">Contacts:</h2> 
     <ul>
         <li>mobile phone number -+375298821123</li>
         <li>email- nata8821123@gmail.com</li>
         <li>discord- Natallia-Zotkina(@natali)</li>
-        <li>Skype- Natallia Zotkina</li>
+        <li>Skype- Natallia Zotkina</li> 
+        <li>
+           <a href="https://github.com/Natallia-Zotkina">GitHub</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/feed/">Linkedin</a>
+        </li>
     </ul>
         </section>
         <section> 
-            <h2>Personal information</h2>
+            <h2 id="summary">Summary:</h2>
             <p> I want to become a front-end developer.I have no work experience yet, but I am a very purposeful person. I like to ckreate something new and find a non-standart approach to solving problems.
             </p>
         </section>
         <section> 
-            <h2>Technologies used:</h2>
+            <h2 id="skills">Skills:</h2>
     <ul>
         <li>HTML&CSS</li>
         <li> Git</li>
@@ -47,11 +63,12 @@
         <li>VSCode</li>
     </ul>
         </section>
-        <section> <h2>Study projects:</h2> 
+        <section> 
+            <h2 id="study projects">Study projects:</h2> 
    <p> my_site <a href=" https://natallia-zotkina.github.io/IT-Academe/"> https://natallia-zotkina.github.io/IT-Academe/</a> </p>  
         </section>
         <section>
-            <h2>Work experience:</h2> 
+            <h2 id="work experience">Work experience:</h2> 
     <ol>
         <li><a href="http://gocb.by/en/">Grodno Regional Clinical Hospital</a>-laboratory assistant</li>
         <li><a href="http://gp6.by/">State healthcare institution City polyclinic №6 Grodno</a>-laboratory assistant</li>
@@ -59,17 +76,30 @@
     </ol>
         </section>
         <section>
-          <h2>Education:</h2> 
+          <h2 id="education">Education:</h2> 
     <ul>
         <li><a href="http://medkolleg.grodno.by/">Grodno State Medical College</a>-Faculty of medical diagnostic business</li>
         <li><a href="http://www.grsmu.by/ru/">Grodno State Medical University</a>-Faculty of Medical Diagnostics "Nursing"</li>
         <li><a href="https://www.vsmu.by/">Educational Institution "Vitebsk State Order of Friendship of Peoples Medical University"</a>-Specialty "Vocational training"</li>
-        <li><a href="https://www.gomel.it-academy.by/">IT-Academy</a>-Website development using HTML,CSS,JavaScript</li>
-        <li><a href="https://onlineitea.com/">ITEA</a>Website in 10 days</li>
     </ul>
         </section>
         <section>
-           <h2>Languages:</h2> 
+            <h2 id="courses">Courses:</h2>
+            <ul>
+                <li><a href="https://www.gomel.it-academy.by/">IT-Academy</a>-Website development using HTML,CSS,JavaScript</li>
+                <li><a href="https://onlineitea.com/">ITEA</a>-Website in 10 days</li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="code">Code</h2>
+            <code>
+                function sum(a, b) {
+                    return a + b;
+                  }
+            </code>
+        </section>
+        <section>
+           <h2 id="languages">Languages:</h2> 
     <ul>
         <li>English: A1+</li>
         <li>Polish: B2</li>
@@ -79,7 +109,7 @@
         </section>
     </main>
    <footer>
-       
+
    </footer>
 </body>
 </html>
